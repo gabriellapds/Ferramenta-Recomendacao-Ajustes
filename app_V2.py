@@ -4,6 +4,8 @@ import pandas as pd
 import plotly.express as px
 import traceback
 
+st.set_page_config(page_title="Recomendador de Ajustes", layout="wide")
+
 # Define o código CSS para centralizar o conteúdo das células da tabela
 css_para_centralizar = """
 <style>
