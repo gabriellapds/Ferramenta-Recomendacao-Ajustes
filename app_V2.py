@@ -28,7 +28,7 @@ st.markdown(css_para_centralizar, unsafe_allow_html=True)
 # --- CONFIGURAÇÕES DA PÁGINA E TÍTULO ---
 st.set_page_config(page_title="Recomendador de Ajustes", layout="wide")
 st.title("Ferramenta de Recomendação de Ajustes")
-st.markdown("Insira as características do cenário para obter um ranking de ajustes recomendados.")
+st.markdown("Insira as características do cenário para obter os ajustes recomendados.")
 
 COLUNA_ID_AJUSTE = 'Ajustes' # Coluna com os números 2, 5, 32...
 HEADER_ROCOF = 'DF_th'
